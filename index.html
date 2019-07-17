@@ -5,13 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Application</title>
+    <link href="css/bootstrap.min.css" rel ="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1>Fill out this form </h1>
-            <p></p>
+            <h1><strong>Fill out this form </strong></h1>
           </div>
+          <h2>GENDER</h2>
+          <form action="/action_page.php">
+
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+            <h3>BIRTHDAY</h3>
+              <input type="date" name="Dob">
+              <div class="checkbox">
+
+                    <!-- <input type="checkbox" name="remember" required> I agree . -->
+                <button type ="submit" class="btn">submit</button>    
+          </form>
+       
       </div>
 </body>
 </html>
