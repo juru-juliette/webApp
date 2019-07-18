@@ -11,6 +11,9 @@ body{
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
+.jumbotron{
+  background: #1F030C;
+}
 h1{
     background: #1F030C;
   color: white;
@@ -22,4 +25,36 @@ h1{
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   text-align: center;
+}
+p{
+    padding-left: 20px;
+    font-size: 18px;
+    color:#000;
+}
+.btn{
+    text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: darkcyan;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+#birth{
+  padding: 13px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+#male{
+  padding: 13px ;
+  margin-left: 20px;
+  font-size: 25px;
+}
+#female{
+    padding: 13px ;
+    margin-left: 20px;
+    font-size: 25px; 
 }
