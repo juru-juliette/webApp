@@ -57,10 +57,10 @@ function weekday(){
     else if(final === 6 && female === "female"){
         document.getElementById("demo").innerHTML = "Your Akan name is Ama";
     }
-    
-    
-    
-    
-    
-    
-} 
+    else {
+        document.getElementById("demo").innerHTML= "please enter correct birthday";
+    }
+    return document.getElementById("demo").innerHTML;
+
+}
+console.log (weekday); 
