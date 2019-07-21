@@ -1,0 +1,25 @@
+For the meals offered, include the following information: meal name, price, ingredients, allergens, and picture. Organize this information in a grid.
+slice and show
+javascript
+_______________________
+function:Like a method, a function is something that performs an action. Functions are different from methods because they are called by themselves, whereas methods are actions that are called on something.
+___________________________
+The code that handles arithmetic is the back-end, or business logic. It's the 'inner workings' of the application that performs calculations and returns a value.
+______________________________
+The code that handles arithmetic is the back-end,r business logic.
+___________________________________________-
+The code that handles interacting with user is the front-end or user interface logic.
+__________________________________________-
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/juru-juliette/calculator.git
+git push -u origin master
+___________________________________
+Regular Expressions are search strings used to locate and manipulate content that matches a particular pattern. 
+Here is an example of a variable set to a regular expression:
+var sample_regex = /moringaschool/gi
+The characters between the / slashes represent the regular expression. The characters following the regular expression, gi, are modifiers. The g stands for "global" and the "i" stands for case-insensitive. 
+_____________________________________
+var nCentury = parseInt(nYear / 100);
+  var nYear100 = nYear % 100;
