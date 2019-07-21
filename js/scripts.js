@@ -10,7 +10,15 @@ function weekday(){
     var month = getMonth();
     month++;
     console.log (month);
+    var days =(((century/4)-2*century-1) + ((5*year/4)) + ((26*(month+1)/10)) + dd )% 7;
+    var final = math.floor(days);
     var male =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
     var female=['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
-    var days =(((century/4)-2*century-1) + ((5*year/4)) + ((26*(month+1)/10)) + dd 
+    if (final === 0 && male === "male"){
+        document.getElementById("demo").innerHTML = "Your Akan name is Kwasi";
+    }
+    else if(final === 1 && male === "male"){
+        document.getElementById("demo").innerHTML = "Your Akan name is Kwadwo";
+    }
+    
 } 
