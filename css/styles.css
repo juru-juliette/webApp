@@ -1,8 +1,4 @@
-body{
-    font-family: Roboto;
-  
-  /* background: linear-gradient(to left,to right #6e312a, #1F1C18); */
-}
+
 .container{
     width: 30%;
     height: 30%;
@@ -58,12 +54,15 @@ p{
   padding: 13px ;
   margin-left: 20px;
   font-size: 25px;
+  font-weight: bold;
 
 }
 #female{
     padding: 13px ;
     margin-left: 20px;
-    font-size: 25px; 
+    font-size: 25px;
+    font-weight: bold; 
+   
 }
 .checkbox{
   font-size: 18px;
