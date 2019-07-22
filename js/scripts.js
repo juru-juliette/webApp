@@ -1,3 +1,4 @@
+//calculate dayweek
 function weekday(){
     var birthday =document.getElementById("birth").Value;
     var YY = document.getElementById("birth").Value;
@@ -64,6 +65,7 @@ function weekday(){
     return document.getElementById("get").innerHTML;
 
 }
+//call function
 document.getElementById("calculate").onclick = function() {
     weekday();
 };
