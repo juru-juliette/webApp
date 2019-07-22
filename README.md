@@ -15,5 +15,5 @@ this web application will take user's birthday and calculate the day  of the wee
 contact:+250787873242 &&+250789557608}
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {2019} **{kangabe juliette}**
+Copyright (c) {2019} **{kangabejuliette}**
   
