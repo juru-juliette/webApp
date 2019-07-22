@@ -7,7 +7,7 @@
     <title>Web Application</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js"></script>
+ 
 </head>
 <body>
   
@@ -19,7 +19,7 @@
             <h1><strong>Fill out this form </strong></h1>
           </div>
          
-          <form action="/action_page.php">
+          <form action="javascript.html">
             <p>GENDER</p>
               <input id="male" type="radio" name="gender" value="male" checked> Male<br>
               <input id="female" type="radio" name="gender" value="female"> Female<br>
@@ -29,9 +29,10 @@
 
                     <input type="checkbox" name="agree" required> I agree 
                   </div>
-                <button type ="submit" class="btn">submit</button>    
+                <button type ="submit" id="calculate" onclick="akanNames()">submit</button> 
+                <p id="get"></p>   
           </form>
        
-     
+          <script type= "text/javascript" src="js/scripts.js"></script>
 </body>
 </html>

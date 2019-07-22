@@ -1,67 +1,71 @@
 function weekday(){
-    var birthday =document.getElementById("date").Value;
-    var data = new date (birthday);
-    var YY = date.getfullyear();
+    var birthday =document.getElementById("birth").Value;
+    var YY = document.getElementById("birth").Value;
     console.log(YY);
-    var CC = (YY/100)+1;
+    CC = (YY/100)+1;
     console.log (CC);
-    var dd= data.getDate();
+    var dd=document.getElementById("birth").Value;
     console.log(dd);
-    var MM = getMonth();
+    var MM = document.getElementById("birth").Value;
     MM++;
     console.log (MM);
     var days =(((CC/4)-2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + dd )% 7;
     var final = math.floor(days);
-    var male =document.getElementById("m").Value
+    var male =document.getElementById("male").Value
    console.log (male);
+   //validate input 
     if (final === 0 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kwasi";
+        document.getElementById("get").innerHTML = "Your Akan name is Kwasi";
     }
     else if(final === 1 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kwadwo";
+        document.getElementById("get").innerHTML = "Your Akan name is Kwadwo";
     }
     else if(final === 2 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kwabena";
+        document.getElementById("get").innerHTML = "Your Akan name is Kwabena";
     }
     else if(final === 3 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kwaku";
+        document.getElementById("get").innerHTML = "Your Akan name is Kwaku";
     }
     else if(final === 4 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Yaw";
+        document.getElementById("get").innerHTML = "Your Akan name is Yaw";
     }
     else if(final === 5 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kofi";
+        document.getElementById("get").innerHTML = "Your Akan name is Kofi";
     }
     else if(final === 6 && male === "male"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Kwame";
+        document.getElementById("get").innerHTML = "Your Akan name is Kwame";
     }
-    var female=document.getElementById("f").Value
+    var female=document.getElementById("female").Value
     console.log (female);
     if (final === 0 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Akosua";
+        document.getElementById("get").innerHTML = "Your Akan name is Akosua";
     }
     else if(final === 1 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Adwoa";
+        document.getElementById("get").innerHTML = "Your Akan name is Adwoa";
     }
     else if(final === 2 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Abenaa";
+        document.getElementById("get").innerHTML = "Your Akan name is Abenaa";
     }
     else if(final === 3 && female  === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Akua";
+        document.getElementById("get").innerHTML = "Your Akan name is Akua";
     }
     else if(final === 4 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Yaa";
+        document.getElementById("get").innerHTML = "Your Akan name is Yaa";
     }
     else if(final === 5 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Afua";
+        document.getElementById("get").innerHTML = "Your Akan name is Afua";
     }
     else if(final === 6 && female === "female"){
-        document.getElementById("demo").innerHTML = "Your Akan name is Ama";
+        document.getElementById("get").innerHTML = "Your Akan name is Ama";
     }
     else {
-        document.getElementById("demo").innerHTML= "please enter correct birthday";
+        document.getElementById("get").innerHTML= "please enter correct birthday";
     }
-    return document.getElementById("demo").innerHTML;
+    return document.getElementById("get").innerHTML;
 
 }
+document.getElementById("calculate").onclick = function() {
+    weekday();
+};
 console.log (weekday); 
+
