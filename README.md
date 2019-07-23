@@ -2,7 +2,7 @@
 this web application will take user's birthday and calculate the day  of the week they were born on and display the name
 
 ## Description
-{As I said different peaple they don't know their born day so this app will be helpful for them to get that easly and the name related to the day }
+{As I said different peaple they don't know their born day so this app will be helpful for them to get that easly and the name related to the day here we use Akan names }
 ## Setup/Installation Requirements
 * visual studio code
 * bootstrap 

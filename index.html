@@ -14,32 +14,38 @@
 
   
     <div class="container">
-      <h1>Detail about Akan names</h1>
+      <h1>Details about Akan names</h1>
       <p>Akan names come from a traditional naming <br>system for people from countries such as Togo, Ivory Coast and Ghana. A child’s name is determined by factors surrounding his or her birth.</p>
       <p>On what day of the week were you born on? <br>This form can help you to know the day and your akan name</p>
         <div class="jumbotron">
             <h2><strong>Fill out this form </strong></h2>
           </div>
          
-          <form action="javascript.html">
+          <form >
             <p>GENDER</p>
-              <input id="male" type="radio" name="gender" value="male" checked> Male<br>
-              <input id="female" type="radio" name="gender" value="female"> Female<br>
-            <p>BIRTHDAY</p>
-              <input id ="birth"type="date" name="Dob">
+              <input id="gender" type="radio"  value="Male"> Male<br>
+              <input id="gender" type="radio"  value="Female"> Female
+            <p>Select Birthday</p>
+            <p>Month: <input id ="month" type="number" name="Inputmonth" value="12">  
+            <p>Day  : <input id ="day"   type="number" name="Inputday"value="27"> </p>    
+            <p>Year : <input id ="year"  type="number" name="Inputyear" value="1990"></p>
               <div class="checkbox">
 
                     <input type="checkbox" name="agree" required> I agree
-                    <button type ="submit" id="calculate" onclick="akanNames()">submit</button> 
-                <p id="get"></p>   
-                <div class="footer">
-                  
-                  <h3>Copyright &copy; 2019 kangabejuliette. All right reserved</h3>
-                </div> 
                   </div>
+                    <button type ="button" class = "submit" id="calculate" onclick="WeekDay()">submit</button> 
+  
+                
+                <p id="demo"></p>
+                 
                 
           </form>
-       
-          <script src="index.js"></script>
+          <div class="footer">
+                  
+            <h3>Copyright &copy; 2019 kangabejuliette. All right reserved</h3>
+          </div>
+          
+    </div>
+    <script src="js/Scripts.js"></script>
 </body>
 </html>
